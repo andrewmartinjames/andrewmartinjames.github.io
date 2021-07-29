@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Andrew James | Tags</title>
-  <meta property="og:title" content="Andrew James | Tags" />
+  <title>Andrew James | IoT Frost Alarm</title>
+  <meta property="og:title" content="Andrew James | IoT Frost Alarm" />
   <meta property="og:image" content="https://amjames.net/img/Senior_cropped.png" />
-  <meta name="description" content="">
-  <meta property="og:description" content="" />
+  <meta name="description" content="Designed open source frost warning system for gardeners using ESP32 microcontroller, Google Cloud (IoT Core, Pub/Sub, Cloud Functions, and Firebase), and an iOS app written in Swift(UI) using Firebase.">
+  <meta property="og:description" content="Designed open source frost warning system for gardeners using ESP32 microcontroller, Google Cloud (IoT Core, Pub/Sub, Cloud Functions, and Firebase), and an iOS app written in Swift(UI) using Firebase." />
   <meta name="author" content="Andrew James">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -75,78 +75,105 @@
 
   <div class="container-fluid p-0">
     
-<section class="resume-section p-3 p-lg-5 d-flex flex-column">
-  <div class="my-auto" id="projects-content">
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
 
-  <ul>
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="https://amjames.net/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="https://amjames.net/projects/">Projects</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="https://amjames.net/projects/iot-frost-alarm/">IoT Frost Alarm</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex d-column">
+  <div class="my-auto">
+    <h2 class="mb-0"><span class="text-primary">IoT Frost Alarm</span></h2>
+    <p>Repo link: <a href="https://github.com/andrewmartinjames/FrostAlert">https://github.com/andrewmartinjames/FrostAlert</a></p>
+    <ul class="tags">
     
-        <li>
-           <a href="https://amjames.net/tags/c&#43;&#43;/">C&#43;&#43;</a>
-       </li>
+      <li><a class="tag" href="/tags/swift">Swift</a></li>
     
-        <li>
-           <a href="https://amjames.net/tags/esp32/">ESP32</a>
-       </li>
+      <li><a class="tag" href="/tags/google-cloud">Google Cloud</a></li>
     
-        <li>
-           <a href="https://amjames.net/tags/firebase/">Firebase</a>
-       </li>
+      <li><a class="tag" href="/tags/firebase">Firebase</a></li>
     
-        <li>
-           <a href="https://amjames.net/tags/google-cloud/">Google Cloud</a>
-       </li>
+      <li><a class="tag" href="/tags/c&#43;&#43;">C&#43;&#43;</a></li>
     
-        <li>
-           <a href="https://amjames.net/tags/swift/">Swift</a>
-       </li>
+      <li><a class="tag" href="/tags/esp32">ESP32</a></li>
     
-        <li>
-           <a href="https://amjames.net/tags/agile/">agile</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/continuous-delivery/">Continuous Delivery</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/continuous-integration/">Continuous Integration</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/culture/">Culture</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/devops/">DevOps</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/apache/">apache</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/redirect/">redirect</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/rewrite/">rewrite</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/ssl/">ssl</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/web-development/">web development</a>
-       </li>
-    
-        <li>
-           <a href="https://amjames.net/tags/ci/cd-pipelines/">CI/CD pipelines</a>
-       </li>
-    
-  </ul>
+</ul>
+
+    <div class="resume-content" style="width:500px;">
+      
+        <img src="/img/frostalertimg.png" style="max-height:500px;max-width:500px;"/>
+      
+    </div>
+    <p>A system designed to use internet of things (IoT) technology to enable a small weather station in the home garden to report current climate data and predict frosts, alerting the gardener in time for them to cover their plants.</p>
+<p>The system consists of an IoT endpoint, powered by a microcontroller in a watertight housing connected to a weatherproof temperature and humidity sensor, as well as cloud services configured to collect and analyze weather data, and finally an iOS app for gardeners to monitor the conditions in their gardens and receive push notifications about incoming frosts.</p>
+<p>To make the system accessible to home gardeners, the design was required to:</p>
+<ul>
+<li>Cost under $200 to construct</li>
+<li>Measure temperature to within half a degree centigrade</li>
+<li>Operate at temperatures down to -20ºC</li>
+<li>Support both ethernet and WiFi connections</li>
+<li>Notify the gardener when a frost is predicted based on the local dew point dropping below freezing</li>
+<li>Allow the gardener to configure a temperature threshold below which they will always be notified, whether or not the dew point indicates an incoming frost.</li>
+</ul>
+<p>The final project utilized:</p>
+<ul>
+<li>An <strong>ESP32</strong> microcontroller, coded in <strong>C++</strong>, for the endpoint</li>
+<li>An Adafruit ethernet shield for ethernet functionality</li>
+<li>An SHT31 temperature and humidity sensor</li>
+<li><strong>Google Cloud</strong> services for the cloud data pipeline
+<ul>
+<li><strong>IoT Core</strong> receives data from the endpoint via <strong>MQTT</strong></li>
+<li><strong>Pub/Sub</strong> receives data from IoT Core and verifies schema</li>
+<li><strong>Cloud Functions</strong> triggered by Pub/Sub analyze current climate data, update a Firestore database, and trigger push notifications</li>
+</ul>
+</li>
+<li><strong>Firebase</strong> as a serverless backend for the iOS app
+<ul>
+<li><strong>Cloud Firestore</strong> stores user and endpoint data in a <strong>NoSQL</strong> database</li>
+<li><strong>Cloud Messaging</strong> sends push notifications to user&rsquo;s phone</li>
+<li><strong>Firebase Auth</strong> for user authentication with the iOS app</li>
+</ul>
+</li>
+<li><strong>Swift</strong> for the iOS app
+<ul>
+<li><strong>SwiftUI</strong> for GUI</li>
+<li><strong>CocoaPods</strong> for dependency management</li>
+</ul>
+</li>
+</ul>
+<p>All design goals were met by the final design except for the low yearly operating cost. This was due to the unexpected requirement of having an Apple Developer account, which costs $99 per year, in order to send push notifications to iOS apps. Due to this unexpectedly high cost, several alternative notification solutions, including an Android app and a secondary physical endpoint with alarm functionality, are proposed at the end of this report, as well as suggestions for potential commercialization.</p>
+<p><a href="https://drive.google.com/file/d/12IK5U414rHYsYwYDRu3WBsZ4R0oDhcVx/view?usp=sharing"><strong>Full design report available here.</strong></a></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/U2NSSIr_3mA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Presentation for senior project"></iframe>
+</div>
+
+
+
   </div>
-  </section>
+</section>
 
 
     <div style="margin:2%; color: #999999; font-size: 80%; text-align: center;">Copyright Andrew James, 2021. Powered by Hugo using the Resume theme. </div>
