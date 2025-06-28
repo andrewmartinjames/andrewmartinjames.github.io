@@ -1,0 +1,47 @@
+title = "Andrew James"
+baseURL = "https://amjames.net"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Metro Detroit, MI"
+email = "andrew@amjames.net"
+favicon = "/favicon.ico"
+firstName = "Andrew"
+lastName = "James"
+phone = ""
+profileImage = "img/Senior_cropped.png"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = true
+showPublications = false
+showQr = false
+showSkills = true
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+link = "https://www.linkedin.com/in/andrewmartinjames/"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://github.com/andrewmartinjames/"
+name = "GitHub"
+
+[[params.handles]]
+link = "https://www.youtube.com/user/andrewmartinjames/videos"
+name = "YouTube"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"

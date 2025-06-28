@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+.hugo_build.lock
+
+# Backup files
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm/yarn for Hugo themes)
+node_modules/
+
+# Netlify deploy previews
+.netlify/
+
+# VSCode settings
+.vscode/
