@@ -1,20 +1,44 @@
 [
     {
-        "role":"TRACK Rotational Software Engineer",
+        "role":"Software Engineer SRE",
         "company":"General Motors",
-        "summary":"Currently engaged in a 2 year rotational software engineering program with four separate roles across the GM software space.",
-        "range":"January 2022 - January 2024"
+        "summary":"- Designed and developed features in Python for a Robot Framework-based test automation tool, including automated controller flashing, Jira/Xray and Slack integrations for test result reporting, Git process automation, advanced Data Driven Testing capabilities, an interrupt plugin to dynamically modify tests during execution.\n- Increased tool reliability by developing improvements to Jenkins CI/CD pipeline, as well as identifying the root cause of test failures discovered in CI and ensuring they were addressed appropriately.\n- Contributed to shared Jenkins controller testing pipeline, enabling ECU software developers to build automated hardware testing into their release pipelines.\n- Lead a Python version upgrade process, identifying and resolving all dependency conflicts and code changes needed across multiple teams, resulting in the successful release of a fully up to date version of the tool.\n- Collaborated across teams to upgrade build and installation system to UV, modernizing our Python tooling and speeding up development, testing, and release of new changes.\n- Lead and contributed to design reviews, ensuring new features were built correctly to meet customer needs and reduce rework.\n- Worked with customer teams to capture their test automation needs and ensure that solutions were efficient and accurate.\n- Provided timely and reliable customer support in understanding and leveraging the many test automation capabilities provided by our tool, increasing the speed and usage of the automation solution by many customer teams, in turn ensuring that vehicle software is thoroughly tested and the results understood by all stakeholders.",
+        "range": "June 2024 - Present"
+    },
+    {
+        "role": "RTOS Infotainment Triage Software Engineer (Rotational)",
+        "company": "General Motors",
+        "summary": "- Conducted bug analysis studies for emergent issues in C++ code for several RTOS infotainment components (climate controls, reverse and surround camera systems, and advanced park assistance system).\n- Rapidly root caused and proposed solutions for issues to software vendor, improving release quality and ensuring vendor alignment with team objectives.\n- Worked with UI design team to correctly implement proposed designs, as well as providing feedback to improve potentially confusing user interface elements, ensuring customers would understand the final interface.\n- Worked with embedded camera engineers to improve standardization of inter-process communication by relaying concerns of vendor developers and ensuring accurate system specifications were understood and agreed to by both sides.\n- Trained new triage developers to efficiently analyze logs and code to identify the root cause of issues, and documented this training for future hires.\n- Collaborated with vehicle testing teams to gather detailed logs of complex issues, driving faster solutions to high-priority regulatory issues and ensuring vehicles could launch on schedule.\n- Supported other C++ triage teams by analyzing complex defects and upskilling engineers on those teams to handle future issues.",
+        "range": "June 2023 - June 2024"
+    },
+    {
+        "role": "Embedded Software Engineer (Rotational)",
+        "company": "General Motors",
+        "summary": "- Developed embedded C code supporting onboard diagnostics for in-house vehicle controllers.\n- Analyzed and implemented regulatory and industry standards (J1979, J1979-2, J1979-3) for OBD compliance.\n- Supported writing of requirements for new diagnostics, following their development through the change management process.",
+        "range": "February 2023 - June 2023"
+    },
+    {
+        "role": "ADAS Software Control Systems Engineer (Rotational)",
+        "company": "General Motors",
+        "summary": "- Supported continuous integration of MATLAB-generated C ADAS software into a mixed C++ and Python SIL simulation environment.\n- Automated most steps of the software integration process to improve update time and enable faster iteration and testing in simulation.\n- Authored a Python library with C bindings to underlying controls code to enable faster compatibility testing between components and highlight potential issues more efficiently.",
+        "range": "August 2022 - January 2023"
+    },
+    {
+        "role": "Controller Integration Engineer (Rotational)",
+        "company": "General Motors",
+        "summary": "- Flashed and evaluated performance and interoperability of vehicle controller software for multiple mid-size crossover SUV programs through Start of Regular Production, ensuring safety standards were met and bugs were resolved.\n- Used Vehicle Spy and Intrepid hardware to flash controllers, monitor CAN messages and DTCS, and troubleshoot software issues.\n- Worked with design release engineers and other controls integration engineers to ensure software viability and compatibility of ECU packages.\n- Improved documentation and program file standardization to ensure future model year release success.",
+        "range": "January 2022 - July 2022"
     },
     {
         "role":"Evolutionary Robotics Researcher",
         "company":"Union College CROCHET Lab",
-        "summary":"NSF-funded research on the use of genetic algorithms in developing novel robot behaviors.\n- Wrote code integrating an evolutionary algorithm (CVT-MAP-ELITES) implemented in Python to a robot simulation package (2D-VSR-Sim) written in Java\n- Collaborated with a remote team using **git** for revision control and continuous testing\n- Designed experiments to test functionality and effectiveness\n- As team lead, mentored new student researchers to take over the project\n- Preprint paper coming soon",
+        "summary":"NSF-funded research on the use of genetic algorithms in developing novel robot behaviors.\n- Wrote code integrating an evolutionary algorithm (CVT-MAP-ELITES) implemented in Python to a robot simulation package (2D-VSR-Sim) written in Java.\n- Collaborated with a remote team using **git** for revision control and continuous testing.\n- Designed experiments to test functionality and effectiveness.\n- As team lead, mentored new student researchers to take over the project.\n- PAPER",
         "range":"April 2020 - June 2021"
     },
     {
         "role":"Help Desk Employee",
         "company":"[Union College ITS Help Desk](https://www.union.edu/information-technology-services/its-organization/user-services/its-help-desk)",
-        "summary":"**Student Team Lead** from September 2019-June 2021.\n- Trained and supervised student IT employees in Tier 1 support, troubleshooting, and appropriate ticket escalation\n- Revamped documentation for internal computer systems & known issues\n- Interviewed and evaluated student candidates for employment\n\n**Student Help Desk Technician** from September 2017-June 2019.\n- Answered college tech support phone line, emails, and walk-in clients, providing Tier 1 & Tier 2 technical support\n- Researched novel technical issues for staff and faculty, providing and documenting resolutions\n- Assisted setting up computer hardware and software for college events",
+        "summary":"**Student Team Lead** from September 2019-June 2021.\n- Trained and supervised student IT employees in Tier 1 support, troubleshooting, and appropriate ticket escalation\n- Revamped documentation for internal computer systems & known issues\n- Interviewed and evaluated student candidates for employment\n\n**Student Help Desk Technician** from September 2017-June 2019.\n- Answered tech support phone line, emails, and walk-in clients, providing Tier 1 & Tier 2 technical support\n- Researched novel technical issues for staff and faculty, providing and documenting resolutions\n- Assisted setting up computer hardware and software for events",
         "range":"September 2017 - June 2021"
     },
     {
