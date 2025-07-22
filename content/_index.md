@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-Software engineer with experience in vehicle embedded systems, infotainment, test automation, and CI/CD deployment. Union College computer engineering graduate (BCpE '21). Originally from Alaska! To get in touch, please reach out on [LinkedIn](https://www.linkedin.com/in/andrewmartinjames/).
+Software engineer with experience in vehicle embedded systems, infotainment, test automation, and CI/CD deployment. Union College computer engineering graduate (BS '21). Originally from Alaska. To get in touch, please reach out on [LinkedIn](https://www.linkedin.com/in/andrewmartinjames/).
